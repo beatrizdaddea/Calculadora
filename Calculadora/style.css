@@ -1,0 +1,130 @@
+:root {
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+}
+
+.dark-mode {
+    --bg-cor: black;
+    --fonte-cor: #ffffff;
+    --bg-color-btn: black;
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
+}
+  
+  :root {
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+  }
+  
+
+  body {
+    position: absolute;
+    background: var(--bg-cor);
+    color: var(--fonte-cor);
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    user-select: none; 
+    width: 100%;
+    height: 100%; 
+  }
+  
+  .mudar-tema {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    background-image: var(--label-icon); 
+    background-repeat: no-repeat;
+    padding: 67px;
+    cursor: pointer; 
+  }
+  
+  #btn {
+    display: none;
+  }
+  
+
+.main{
+    align-items: center;
+    justify-content: center;
+  }
+
+.form-group{
+    margin: 10px 5%;
+    
+}
+
+.text-maincolor{
+    width: 210px;
+    padding:5px 16px;
+    margin-top:100px ;
+}
+
+.text1-maincolor{
+    color:var(--fonte-cor);
+    background: var(--bg-color-btn);
+    width: 20px;
+    padding:5px 16px;
+    border-radius: 50%;
+}
+
+input{
+    color: var(--fonte-cor);
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 5%;
+  }
+
+.btn{
+    margin: 1opx ;
+    display: none;
+}
+
+.btns{
+    margin: 20px 100px;
+}
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom:12px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .num{
+    width: 64px;
+    height: 67px;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .maincolor{
+    color:var(--fonte-cor);
+    background: var(--bg-color-btn);
+    border-color: rgb(41, 41, 41);
+    padding: auto;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .action{
+    margin: 5px;
+    background:#ebb328;
+    border-color: rgb(41, 41, 41);
+  } 
+
+  @media screen and (min-width: 300px) {
+    .form-group{
+        margin: 10px 110px;
+        
+    }
+  }
